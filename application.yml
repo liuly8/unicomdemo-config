@@ -1,0 +1,15 @@
+spring:
+    profiles:
+        active:
+        - dev
+---
+spring:
+    profiles: dev
+    application:
+        name: unicomdemo-config-asiainfo-dev
+---
+spring:
+    profiles: test
+    application:
+        name: unicomdemo-config-asiainfo-test
+# 保存编码格式utf-8
